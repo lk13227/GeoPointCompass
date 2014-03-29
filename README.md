@@ -5,7 +5,7 @@ This iOS Xcode project shows how to create a simple compass that points at the d
 that you can specify with latitude and longitude.
 
 Import GeoPointCompass.h, GeoPointCompass.m and the arrow.png image to your project (or you can provide your own image
-for the compass. You will need to add 
+for the compass.
 
 Usage
 -----
