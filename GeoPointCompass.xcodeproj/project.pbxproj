@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6892748318E71D39003C7F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892748218E71D39003C7F6E /* Foundation.framework */; };
+		6892748518E71D39003C7F6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892748418E71D39003C7F6E /* CoreGraphics.framework */; };
+		6892748718E71D39003C7F6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892748618E71D39003C7F6E /* UIKit.framework */; };
+		6892748D18E71D39003C7F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6892748B18E71D39003C7F6E /* InfoPlist.strings */; };
+		6892748F18E71D39003C7F6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892748E18E71D39003C7F6E /* main.m */; };
+		6892749318E71D39003C7F6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6892749218E71D39003C7F6E /* AppDelegate.m */; };
+		6892749518E71D39003C7F6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6892749418E71D39003C7F6E /* Images.xcassets */; };
+		6892749C18E71D39003C7F6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892749B18E71D39003C7F6E /* XCTest.framework */; };
+		6892749D18E71D39003C7F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892748218E71D39003C7F6E /* Foundation.framework */; };
+		6892749E18E71D39003C7F6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6892748618E71D39003C7F6E /* UIKit.framework */; };
+		689274A618E71D39003C7F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689274A418E71D39003C7F6E /* InfoPlist.strings */; };
+		689274A818E71D39003C7F6E /* GeoPointCompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689274A718E71D39003C7F6E /* GeoPointCompassTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6892749F18E71D39003C7F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6892747718E71D39003C7F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6892747E18E71D39003C7F6E;
+			remoteInfo = GeoPointCompass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6892747F18E71D39003C7F6E /* GeoPointCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPointCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6892748218E71D39003C7F6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6892748418E71D39003C7F6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6892748618E71D39003C7F6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6892748A18E71D39003C7F6E /* GeoPointCompass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoPointCompass-Info.plist"; sourceTree = "<group>"; };
+		6892748C18E71D39003C7F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6892748E18E71D39003C7F6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6892749018E71D39003C7F6E /* GeoPointCompass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoPointCompass-Prefix.pch"; sourceTree = "<group>"; };
+		6892749118E71D39003C7F6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6892749218E71D39003C7F6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6892749418E71D39003C7F6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6892749A18E71D39003C7F6E /* GeoPointCompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoPointCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6892749B18E71D39003C7F6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		689274A318E71D39003C7F6E /* GeoPointCompassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoPointCompassTests-Info.plist"; sourceTree = "<group>"; };
+		689274A518E71D39003C7F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		689274A718E71D39003C7F6E /* GeoPointCompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoPointCompassTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6892747C18E71D39003C7F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892748518E71D39003C7F6E /* CoreGraphics.framework in Frameworks */,
+				6892748718E71D39003C7F6E /* UIKit.framework in Frameworks */,
+				6892748318E71D39003C7F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6892749718E71D39003C7F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892749C18E71D39003C7F6E /* XCTest.framework in Frameworks */,
+				6892749E18E71D39003C7F6E /* UIKit.framework in Frameworks */,
+				6892749D18E71D39003C7F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6892747618E71D39003C7F6E = {
+			isa = PBXGroup;
+			children = (
+				6892748818E71D39003C7F6E /* GeoPointCompass */,
+				689274A118E71D39003C7F6E /* GeoPointCompassTests */,
+				6892748118E71D39003C7F6E /* Frameworks */,
+				6892748018E71D39003C7F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6892748018E71D39003C7F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6892747F18E71D39003C7F6E /* GeoPointCompass.app */,
+				6892749A18E71D39003C7F6E /* GeoPointCompassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6892748118E71D39003C7F6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6892748218E71D39003C7F6E /* Foundation.framework */,
+				6892748418E71D39003C7F6E /* CoreGraphics.framework */,
+				6892748618E71D39003C7F6E /* UIKit.framework */,
+				6892749B18E71D39003C7F6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6892748818E71D39003C7F6E /* GeoPointCompass */ = {
+			isa = PBXGroup;
+			children = (
+				6892749118E71D39003C7F6E /* AppDelegate.h */,
+				6892749218E71D39003C7F6E /* AppDelegate.m */,
+				6892749418E71D39003C7F6E /* Images.xcassets */,
+				6892748918E71D39003C7F6E /* Supporting Files */,
+			);
+			path = GeoPointCompass;
+			sourceTree = "<group>";
+		};
+		6892748918E71D39003C7F6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6892748A18E71D39003C7F6E /* GeoPointCompass-Info.plist */,
+				6892748B18E71D39003C7F6E /* InfoPlist.strings */,
+				6892748E18E71D39003C7F6E /* main.m */,
+				6892749018E71D39003C7F6E /* GeoPointCompass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		689274A118E71D39003C7F6E /* GeoPointCompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				689274A718E71D39003C7F6E /* GeoPointCompassTests.m */,
+				689274A218E71D39003C7F6E /* Supporting Files */,
+			);
+			path = GeoPointCompassTests;
+			sourceTree = "<group>";
+		};
+		689274A218E71D39003C7F6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689274A318E71D39003C7F6E /* GeoPointCompassTests-Info.plist */,
+				689274A418E71D39003C7F6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6892747E18E71D39003C7F6E /* GeoPointCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689274AB18E71D39003C7F6E /* Build configuration list for PBXNativeTarget "GeoPointCompass" */;
+			buildPhases = (
+				6892747B18E71D39003C7F6E /* Sources */,
+				6892747C18E71D39003C7F6E /* Frameworks */,
+				6892747D18E71D39003C7F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoPointCompass;
+			productName = GeoPointCompass;
+			productReference = 6892747F18E71D39003C7F6E /* GeoPointCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6892749918E71D39003C7F6E /* GeoPointCompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689274AE18E71D39003C7F6E /* Build configuration list for PBXNativeTarget "GeoPointCompassTests" */;
+			buildPhases = (
+				6892749618E71D39003C7F6E /* Sources */,
+				6892749718E71D39003C7F6E /* Frameworks */,
+				6892749818E71D39003C7F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689274A018E71D39003C7F6E /* PBXTargetDependency */,
+			);
+			name = GeoPointCompassTests;
+			productName = GeoPointCompassTests;
+			productReference = 6892749A18E71D39003C7F6E /* GeoPointCompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6892747718E71D39003C7F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maduranga Edirisinghe";
+				TargetAttributes = {
+					6892749918E71D39003C7F6E = {
+						TestTargetID = 6892747E18E71D39003C7F6E;
+					};
+				};
+			};
+			buildConfigurationList = 6892747A18E71D39003C7F6E /* Build configuration list for PBXProject "GeoPointCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6892747618E71D39003C7F6E;
+			productRefGroup = 6892748018E71D39003C7F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6892747E18E71D39003C7F6E /* GeoPointCompass */,
+				6892749918E71D39003C7F6E /* GeoPointCompassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6892747D18E71D39003C7F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892748D18E71D39003C7F6E /* InfoPlist.strings in Resources */,
+				6892749518E71D39003C7F6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6892749818E71D39003C7F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689274A618E71D39003C7F6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6892747B18E71D39003C7F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6892749318E71D39003C7F6E /* AppDelegate.m in Sources */,
+				6892748F18E71D39003C7F6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6892749618E71D39003C7F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689274A818E71D39003C7F6E /* GeoPointCompassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689274A018E71D39003C7F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6892747E18E71D39003C7F6E /* GeoPointCompass */;
+			targetProxy = 6892749F18E71D39003C7F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6892748B18E71D39003C7F6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6892748C18E71D39003C7F6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		689274A418E71D39003C7F6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689274A518E71D39003C7F6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689274A918E71D39003C7F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689274AA18E71D39003C7F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689274AC18E71D39003C7F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPointCompass/GeoPointCompass-Prefix.pch";
+				INFOPLIST_FILE = "GeoPointCompass/GeoPointCompass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		689274AD18E71D39003C7F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPointCompass/GeoPointCompass-Prefix.pch";
+				INFOPLIST_FILE = "GeoPointCompass/GeoPointCompass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		689274AF18E71D39003C7F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoPointCompass.app/GeoPointCompass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPointCompass/GeoPointCompass-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoPointCompassTests/GeoPointCompassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		689274B018E71D39003C7F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoPointCompass.app/GeoPointCompass";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPointCompass/GeoPointCompass-Prefix.pch";
+				INFOPLIST_FILE = "GeoPointCompassTests/GeoPointCompassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6892747A18E71D39003C7F6E /* Build configuration list for PBXProject "GeoPointCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689274A918E71D39003C7F6E /* Debug */,
+				689274AA18E71D39003C7F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689274AB18E71D39003C7F6E /* Build configuration list for PBXNativeTarget "GeoPointCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689274AC18E71D39003C7F6E /* Debug */,
+				689274AD18E71D39003C7F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		689274AE18E71D39003C7F6E /* Build configuration list for PBXNativeTarget "GeoPointCompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689274AF18E71D39003C7F6E /* Debug */,
+				689274B018E71D39003C7F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6892747718E71D39003C7F6E /* Project object */;
+}
