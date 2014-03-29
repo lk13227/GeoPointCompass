@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  GeoPointCompass
 //
-//  Created by Maduranga Edirisinghe on 3/29/14.
+//  Created by Maduranga Edirisinghe on 3/27/14.
 //  Copyright (c) 2014 Maduranga Edirisinghe. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self.window setRootViewController:navController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
